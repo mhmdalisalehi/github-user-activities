@@ -27,7 +27,7 @@ def display_activity(events):
             print(f"{action.capitalize()} an issue in {repo_name}")
         elif event_type == 'WatchEvent':
             print(f"Starred {repo_name}")
-        # Add more event types as needed
+    
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
